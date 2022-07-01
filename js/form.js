@@ -47,11 +47,15 @@ class Form{
            
               database.ref("/").set({
                   //set the intial value for carsAtEnd,playerCount,gameState,players
-                 player.updateCount(0);
+                 this.reset.mousePressed(() => { /* player.updateCount(0); 
                  game.update(0);
-                });
-                //reload() the window
-                window.location.reload();
+                 */ database.ref("/").set({
+                     carsAtEnd: 0,
+                     playerCount: 0,
+                     gameState: 0,
+                     palyers: {} 
+                 });
+                  window.location.reload(); 
               });
             }
 
