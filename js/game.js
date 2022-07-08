@@ -151,7 +151,7 @@ class Game{
                     text("GAME OVER",displayWidth/2-400,displayHeight/2-200)
                     }
         //  print the gameover message
-        
+}
             
 
 
