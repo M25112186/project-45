@@ -46,10 +46,8 @@ class Form{
         this.reset.mousePressed(() => {
            
               database.ref("/").set({
-                  //set the intial value for carsAtEnd,playerCount,gameState,players
-                 this.reset.mousePressed(() => { /* player.updateCount(0); 
-                 game.update(0);
-                 */ database.ref("/").set({
+              
+    
                      carsAtEnd: 0,
                      playerCount: 0,
                      gameState: 0,
